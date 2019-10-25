@@ -1,6 +1,19 @@
 function distance(first, second){
-	//TODO: implementați funcția
-	// TODO: implement the function
+	
+	
+	if(first!=null && second!=null){
+var armixed = first.map(function (x, i) { 
+                          return [x, second[i]] 
+                      });
+		
+	}
+	else{
+		return 0;
+	}
+	
+	
+return first+second;
+
 }
 
 
